@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class Bai7 {
     public static void main(String[] args) {
+        // Nhap vao tu ban phim
         Scanner scanner = new Scanner(System.in);
-        boolean isContinue = true;
-        while (isContinue){
+        boolean check = true;
+        // Xu ly ngoai le
+        while (check){
             try {
                 System.out.println("Nhap so thu nhat: ");
                 int firstNumber = Integer.parseInt(scanner.nextLine());
@@ -16,10 +18,13 @@ public class Bai7 {
                 else {
                     System.out.println("So lon nhat la: "+secondNumber);
                 }
-                isContinue = false;
+                check = false;
             }
             catch (NumberFormatException e){
                 System.err.println("Moi nhap lai");
+            }
+            catch (Exception x){
+                System.out.println("NG");
             }
         }
 

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Bai8 {
     public static void main(String[] args) {
+        // Bai 8
         Scanner scanner = new Scanner(System.in);
         int inputPrime=0;
         while (true){

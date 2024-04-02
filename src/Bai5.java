@@ -8,6 +8,7 @@ public class Bai5
  public static    Scanner scanner = new Scanner(System.in);
     public static void binarySearch(int[] arr)
     {
+
         System.out.println("Nhập vào giá trị cần tìm");
         int searchValue = Integer.parseInt(scanner.nextLine());
         int low = 0;
