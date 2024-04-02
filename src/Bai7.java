@@ -19,7 +19,7 @@ public class Bai7 {
                 isContinue = false;
             }
             catch (NumberFormatException e){
-                System.err.println("Gia tri nhap vao khong phai la kieu so nguyen");
+                System.err.println("Moi nhap lai");
             }
         }
 

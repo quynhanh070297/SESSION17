@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class Bai8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int snt=0;
+        int inputPrime=0;
         while (true){
             try {
                 System.out.println("Nhập s0");
-                snt = Integer.parseInt(scanner.nextLine());
+                inputPrime = Integer.parseInt(scanner.nextLine());
                 break;
             }catch (NumberFormatException e){
                 System.out.println("Ko hợp lệ");
             }
         }
-        if (isPrime(snt)){
-            System.out.println(snt + " là nguyen to");
+        if (isPrime(inputPrime)){
+            System.out.println(inputPrime + " là nguyen to");
         }else {
-            System.out.println(snt + " ko la nguyen to");
+            System.out.println(inputPrime + " ko la nguyen to");
         }
 
     }
